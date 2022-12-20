@@ -1,0 +1,11 @@
+console.log(`------------String Templete--------------`);
+var temp= `My dream company is "Alten calsoft limited"`;
+console.log(temp);
+console.log(`------------hobbies--------------`);
+var hobbies1= `Playing Cricket`;
+var hobbies2= `Exploring New Tech`;
+var hobbies3= `Watching Movies`;
+console.log(`My Hobbies Are: "${hobbies1}" "${hobbies2}" "${hobbies3}"`);
+console.log(`------------Concatenation--------------`);
+var temp2=hobbies1.concat (`, ${hobbies2},  ${hobbies3}`);
+console.log(`My Hobbies Are: ${temp2}`);
